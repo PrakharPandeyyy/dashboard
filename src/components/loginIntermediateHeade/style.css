@@ -1,0 +1,35 @@
+.loginIntermediateHeader {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  background-color: #068da9;
+  overflow: hidden;
+  
+}
+
+.loginIntermediateHeader img {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.loginIntermediateHeader img:hover {
+  transform: scale(1.2);
+}
+.loginIntermediateHeader h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transform: translate(-15px,-4.7px);
+}
