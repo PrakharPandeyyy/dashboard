@@ -13,6 +13,10 @@ export const menuItems = [
       icon: "icons/schedule.svg",
     },
     {
+      text: "Calls",
+      icon: "icons/phone.svg",
+    },
+    {
       text: "Transactions",
       icon: "icons/transactions.svg",
     },
